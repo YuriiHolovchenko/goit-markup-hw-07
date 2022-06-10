@@ -117,8 +117,8 @@
         outline: var(--accent-color);
     }
     
-    &:focus~.icon,
-    &:not(:placeholder-shown)~.icon {
+    &:focus~.modal-form__icon,
+    &:not(:placeholder-shown)~.modal-form__icon {
         fill: var(--accent-color);
     }
     
@@ -128,7 +128,7 @@
         cursor: pointer;
     }
     
-    &:hover~.icon {
+    &:hover~.modal-form__icon {
         fill: var(--accent-color);
     }
 }

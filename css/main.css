@@ -251,8 +251,8 @@ img {
   outline: var(--accent-color);
 }
 
-.modal-form__input:focus ~ .icon,
-.modal-form__input:not(:placeholder-shown) ~ .icon {
+.modal-form__input:focus ~ .modal-form__icon,
+.modal-form__input:not(:placeholder-shown) ~ .modal-form__icon {
   fill: var(--accent-color);
 }
 
@@ -261,7 +261,7 @@ img {
   cursor: pointer;
 }
 
-.modal-form__input:hover ~ .icon {
+.modal-form__input:hover ~ .modal-form__icon {
   fill: var(--accent-color);
 }
 
